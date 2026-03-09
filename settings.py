@@ -1,0 +1,41 @@
+WIDTH = 420
+HEIGHT = 760
+
+MENU_WIDTH = 820
+MENU_HEIGHT = 560
+
+GAME_OVER_WIDTH = 820
+GAME_OVER_HEIGHT = 560
+
+FPS = 60
+TITLE = "Flash Car"
+
+LANES_X = [20, 170, 320]
+
+CAR_SIZE = (120, 200)
+NYAN_CAR_SIZE = (110, 190)
+OBSTACLE_SIZE = (120, 90)
+
+ROAD_SEGMENTS = [
+    (150, 0, 200),
+    (150, 250, 450),
+    (150, 500, 700),
+    (150, 750, 950),
+    (300, 50, 250),
+    (300, 300, 500),
+    (300, 550, 750),
+    (300, 800, 1000),
+]
+
+ROAD_SPEED = 10
+OBSTACLE_START_SPEED = 10
+
+CHEAT_CODES = ["nyancat", "black", "red", "green"]
+DEFAULT_CODE = "green"
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+DARK_GRAY = (55, 55, 55)
+LIGHT_GRAY = (85, 85, 85)
+RED = (255, 80, 80)
+GOLD = (255, 220, 100)
